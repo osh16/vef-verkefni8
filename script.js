@@ -70,7 +70,7 @@ function editItem() {
 
   // baetum event listener
   edit.addEventListener("keypress", keypressItem);//ef ytt er a enter
-  edit.addEventListener("blur", commitItem);//ef ytt er i burtu -- ath virkar ekki
+  edit.addEventListener("blur", commitItem);//ef ytt er i burtu
 }
 
 function keypressItem(evt) {
